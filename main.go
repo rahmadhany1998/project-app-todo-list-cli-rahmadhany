@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
+import "todo-list-cli/handler"
 
-// main menjalankan CLI handler
 func main() {
-	fmt.Println("Test!")
+	handler.HandleCLI() // call the handler
 }
